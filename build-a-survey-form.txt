@@ -1,0 +1,73 @@
+** start of undefined **
+
+<!doctype html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+<body>
+  <h1 id="title">freeCodeCamp Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <label for="name" id="name-label"> Name <input 
+id="name" name="name" type="text"
+placeholder="Enter your name"  required /></label>
+ <label for="email" id="email-label"> Email <input placeholder:"Enter your email" type="email" id="email" placeholder="123@456.com" required ></label>
+ <label for="number" id="number-label">Age
+  <input type="number" id="number" min="13" max="120"
+  placeholder="15"
+>
+  
+  </label>
+  <label for="dropdown">Which option best describes your current role?
+          <select id="dropdown" name="referrer">
+            <option value="">(select one)</option>
+            <option value="1">Student</option>
+            <option value="2">Full time job</option>
+            <option value="3">Part time job</option>
+            <option value="4">Other</option>
+          </select>
+          <fieldset>
+            <legend>Would you recommend freeCodeCamp to a friend?</legend>
+        </label>
+<label><input id="yes" type="radio" name="yesorno" value="yes" checked> Yes</label>
+            <label><input id="outdoor" type="radio" name="yesorno" value="No"> No</label>
+            </fieldset>
+<fieldset>
+            <legend>What is your favorite feature of freeCodeCamp?</legend>
+            <input id="frontend" type="checkbox" name="personality" value="frontend" checked> <label for="frontend">Front-End</label>
+            <input id="back-end" type="checkbox" name="personality" value="backend"> <label for="backend">Back-End</label>
+            <input id="data" type="checkbox" name="personality" value="data"> <label for="data">Data</label>
+            
+          </fieldset>
+          <fieldset>
+            <label for="comments">Additional comments:<textarea id="comments" name="comments" rows="3" cols="30" placeholder="I wanted to talk about..."></textarea>
+        </label></fieldset>
+         <input id="submit" type="submit" value="Submit" />
+         </form>
+</body>
+    </html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #1b1b32;
+  color: #f5f6f7;
+  font-family: Tahoma;
+  font-size: 16px;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+** end of undefined **
+
