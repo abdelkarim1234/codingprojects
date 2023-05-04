@@ -1,3 +1,4 @@
 # codingprojects
-this is just my projects, if you are interested. 
-I am a total beginner
+These are just my projects. If you are interested,
+it is good to know that
+I am a total beginner.
